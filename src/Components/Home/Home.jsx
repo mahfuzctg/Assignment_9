@@ -3,9 +3,11 @@ import Header from '../Header/Header';
 import { Outlet, useLoaderData } from 'react-router-dom';
 import './Home.css';
 import Category from '../Category/Category';
+import Features from '../Features/Features';
 
 const Home = () => {
     const categorys = useLoaderData();
+    const features = useLoaderData();
 
     return (
         <div className='container '>
@@ -28,12 +30,21 @@ const Home = () => {
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
                  
-            <div className='category-home'>
+            <div className=' category-home'>
                 {
                           categorys.map(category => <Category 
                           key={category.id}
                           category={category}
                           ></Category>)
+                }
+            </div>
+
+            {/* here is features section */}
+            <div>
+                {
+                       features.map(feature => <Features
+                        key={feature.id}
+                         feature={feature}></Features>)
                 }
             </div>
         </div>

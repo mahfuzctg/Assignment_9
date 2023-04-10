@@ -1,0 +1,21 @@
+.category-div{
+background: #F9F9FF;
+margin: 10px;
+padding: 10px;
+width: 200px;
+height: 130px;
+}
+.category-div h6{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.category-div p{
+font-size: 15px;
+}
+.category-div img{
+    width: 30px;
+    height: auto;
+   
+}
+

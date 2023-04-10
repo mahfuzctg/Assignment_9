@@ -32,10 +32,6 @@
 .category-home{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-   
-}
-.category-div img{
-width: 30px;
-height: auto;
-
+    width: 70%;
+    margin: auto;
 }
