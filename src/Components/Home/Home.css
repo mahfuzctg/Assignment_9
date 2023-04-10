@@ -1,0 +1,41 @@
+.home-container{
+    background-color: #F9F9FF;
+    align-items: center;
+    justify-content: space-around;
+}
+.home-container{
+ font-size: 16px;
+  
+}
+.home-tile{
+    width: 500px;
+    height: auto;
+    
+}
+.home-tile h1{
+    font-weight: bold;
+}
+.span{
+    color: #97A5FE;
+}
+.img{
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    border: 10px #97A5FE solid ;
+}
+/* Here is category styles */
+.category p{
+ font-size: 15px;
+ 
+}
+.category-home{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+.category-div img{
+width: 30px;
+height: auto;
+
+}

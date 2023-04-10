@@ -1,0 +1,9 @@
+.header-link a{
+text-decoration: none;
+margin-right: 15px;
+}
+
+.header-logo h5{
+    font-size: 25px;
+    font-weight: bolder;
+}
