@@ -8,6 +8,7 @@ import Features from '../Features/Features';
 const Home = () => {
     const categorys = useLoaderData();
     const features = useLoaderData();
+   
 
     return (
         <div className='container '>
@@ -40,13 +41,7 @@ const Home = () => {
             </div>
 
             {/* here is features section */}
-            <div>
-                {
-                       features.map(feature => <Features
-                        key={feature.id}
-                         feature={feature}></Features>)
-                }
-            </div>
+           
         </div>
 
         

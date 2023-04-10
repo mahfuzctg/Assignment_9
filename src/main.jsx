@@ -10,8 +10,11 @@ import {
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Main from './Components/Main/Main';
+import Features from './Components/Features/Features';
+import Blog from './Components/Blog/Blog';
 const router = createBrowserRouter([
   {
+   
     path: "/",
     element: <Main></Main>,
     children: [
@@ -20,15 +23,14 @@ const router = createBrowserRouter([
         element: <Home></Home>,
         loader: () => fetch('Category.json'),
         
-      },
-      {
-        path: '/',
-        element: <Home></Home>,
-        loader: () => fetch('Features.json'),
-        
       }
+     
     ]
   },
+  {
+    path: '/blog',
+    element: <Blog></Blog>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
