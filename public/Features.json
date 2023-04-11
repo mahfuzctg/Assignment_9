@@ -8,7 +8,8 @@
      "logo": "https://i.postimg.cc/852VdsLz/google.png",
      "id": "011",
      "time": "Full Time",
-     "Category":"Remote"
+     "Category":"Remote",
+     "description": "Database expert: Designs, implements, manages complex databases, ensuring optimal performance, security & data integrity."
     },
     {
     "title": "Senior Product Designer",
@@ -19,7 +20,7 @@
     "id": "022",
     "time": "Full Time",
         "Category":"Onsite",
-        "description": "hdjhjhdhhuhhdhdhuhrhu"
+        "description": "Creative leader: Drives product design strategy, mentors team, creates innovative user experiences, and delivers compelling visuals."
     },
     {
 
@@ -30,7 +31,8 @@
         "logo": "https://i.postimg.cc/sXVTkzy4/amazon.png",
         "id": "033",
         "time": "Part Time",
-        "Category":"Remote"
+        "Category":"Remote",
+        "description": "Security guardians: Protects systems, data, and networks from cyber threats, conducts risk assessments, develops security measures."
         },
     
     {
@@ -41,7 +43,8 @@
         "logo": "https://i.postimg.cc/fRbscG1p/Tesla.png",
         "id": "044",
         "time": "Part Time",
-        "Category":"Onsite"
+        "Category":"Onsite",
+        "description": "Design, develop, and implement software solutions. Code, test, debug, and maintain applications."
     
     },
     {
@@ -52,7 +55,8 @@
         "logo": "https://i.postimg.cc/y8MDkLJ2/Twitter.png",
         "id": "055",
         "time": "Full Time",
-        "Category":"Remote"
+        "Category":"Remote",
+        "description": "Software Engineer: Problem Solver. Develops innovative solutions to complex problems. Codes, tests, debugs, and maintains software."
     
     },
     {
@@ -63,7 +67,8 @@
         "logo": "https://i.postimg.cc/SRBBWYWQ/facebook.png",
         "id": "066",
         "time": "Full Time",
-        "Category":"Onsite"
+        "Category":"Onsite",
+        "description": "Database Engineer: Designs, develops, and manages efficient and secure databases. Implements data models, ensures data integrity, and optimizes database performance."
     
     }
 ]

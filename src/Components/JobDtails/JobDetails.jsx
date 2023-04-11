@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 
-const JobDetails = ({}) => {
+const JobDetails = () => {
+   
+
     const job_Details = useLoaderData()
     let jobId = useParams();
     const [jobData, setJobData] = useState([]);
@@ -17,7 +19,7 @@ const JobDetails = ({}) => {
     return (
         <div>
             <h2>Job details loading...</h2>
-            
+          
         </div>
     );
 };
