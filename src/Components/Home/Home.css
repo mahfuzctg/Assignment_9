@@ -19,10 +19,12 @@
     color: #97A5FE;
 }
 .img{
-    width: 500px;
-    height: auto;
+    width: 600px;
+    height: 500px;
     border-radius: 50%;
-    border: 10px #97A5FE solid ;
+    border: 10px solid #97A5FE;
+   
+
 }
 /* Here is category styles */
 .category p{
@@ -34,4 +36,14 @@
     grid-template-columns: repeat(4, 1fr);
     width: 70%;
     margin: auto;
+}
+/* here is features styles */
+.features-home{
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    
 }

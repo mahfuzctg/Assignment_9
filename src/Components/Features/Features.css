@@ -1,0 +1,13 @@
+.features-div{
+    border: 1px solid lavender;
+    border-radius: 5px;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+
+}
+.features-div img{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 5px;
+}

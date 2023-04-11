@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import { Outlet, useLoaderData } from 'react-router-dom';
 import './Home.css';
@@ -6,12 +6,29 @@ import Category from '../Category/Category';
 import Features from '../Features/Features';
 
 const Home = () => {
-    const categorys = useLoaderData();
-    const features = useLoaderData();
-   
 
+    const categorys = useLoaderData();
+
+    
+    const [features, setFeatures] = useState([]);
+    const [seeMore, setSeeMore] = useState(false);
+    useEffect(() => {
+       fetch('Features.json')
+       .then((res) => res.json())
+       .then((data) => setFeatures(data))
+    }, []);
+    
+    const handleSeeMore = () => {
+        setSeeMore(true);
+    };
+
+   
+    const showAllFeatures =seeMore ? features : features.slice(0,4)
+
+   
+    
     return (
-        <div className='container '>
+        <div>
             {/* here is home container section*/}
             <div className='home-container d-flex py-3'>
             <div className='home-tile'>
@@ -20,7 +37,7 @@ const Home = () => {
             <button className='btn btn-primary'>Get Started</button>
            </div>
            <div>
-            <img className='img' src="https://i.postimg.cc/Jzw9fyY5/Whats-App-Image-2022-02-12-at-11-39-52-PM.jpg" alt="" />
+            <img className='img' src="https://i.postimg.cc/Hsf5Fw0W/Whats-App-Image-2023-04-11-at-6-50-08-AM.jpg" alt="" />
            </div>
             </div>
              
@@ -31,7 +48,7 @@ const Home = () => {
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
                  
-            <div className=' category-home'>
+            <div className='category-home'>
                 {
                           categorys.map(category => <Category 
                           key={category.id}
@@ -41,7 +58,28 @@ const Home = () => {
             </div>
 
             {/* here is features section */}
-           
+                <div className='features-home my-5'>
+               
+                {
+                    showAllFeatures.map((feature) => (
+                        <Features  
+                        key={feature.id}
+                        feature={feature}
+                        handleSeeMore={() => handleSeeMore(feature.id)}
+                        ></Features>
+                    ))
+                }
+               
+                
+                </div>
+                <div className='m-5'>
+                {
+                    !seeMore && (
+                        <button className='btn btn-info' onClick={handleSeeMore}>See More</button>
+                    )
+                }
+                   
+                </div>
         </div>
 
         
