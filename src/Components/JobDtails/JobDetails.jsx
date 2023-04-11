@@ -17,11 +17,7 @@ const JobDetails = ({}) => {
     return (
         <div>
             <h2>Job details loading...</h2>
-            {
-                job_Details.map(jobs => <JobDetails 
-                key={jobs.id}
-                ></JobDetails>)
-            }
+            
         </div>
     );
 };
