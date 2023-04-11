@@ -4,6 +4,7 @@ import { Outlet, useLoaderData } from 'react-router-dom';
 import './Home.css';
 import Category from '../Category/Category';
 import Features from '../Features/Features';
+import Charts from '../Charts/Charts';
 
 const Home = () => {
 
@@ -34,7 +35,7 @@ const Home = () => {
             <div className='home-tile'>
             <h1>One Step <br /> Closer To Your <br /> <span className='span'> Dream Job</span></h1>
             <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
-            <button className='btn btn-primary'>Get Started</button>
+            <button className='btn'>Get Started</button>
            </div>
            <div>
             <img className='img' src="https://i.postimg.cc/Hsf5Fw0W/Whats-App-Image-2023-04-11-at-6-50-08-AM.jpg" alt="" />
@@ -69,17 +70,19 @@ const Home = () => {
                         ></Features>
                     ))
                 }
-               
                 
-                </div>
-                <div className='m-5'>
+                <div className='see-more'>
                 {
                     !seeMore && (
-                        <button className='btn btn-info' onClick={handleSeeMore}>See More</button>
+                        <button className='btn' onClick={handleSeeMore}>See More</button>
                     )
                 }
                    
                 </div>
+                </div>
+               
+
+             
         </div>
 
         

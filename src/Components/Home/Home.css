@@ -47,3 +47,11 @@
     margin: auto;
     
 }
+/* here is see more styles */
+.btn{
+  
+   background-image: linear-gradient(to right, #9774FF 0%, #7F8FFE 51%, #c165f6 100%);
+   color: white;
+   font-weight: bold;
+   
+}
