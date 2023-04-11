@@ -4,15 +4,11 @@ import { Link } from 'react-router-dom';
 const Featured = ({feature}) => {
   const {title, brand,logo, salary, location,Category,time} = feature;
 
-  
-  
- 
-
    const [features, setFeatures] = useState([]);
      useEffect(() => {
         fetch('Features.json')
         .then((res) => res.json())
-        .then((data) => setFeatures(data))
+        .then((data) => setFeatures(features))
      }, []);
    
     

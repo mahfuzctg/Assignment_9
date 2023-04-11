@@ -1,15 +1,17 @@
 [
     {
-         
      "title": "Technical Database Engineer",
      "brand": "Google LLC",
      "location": "Dhaka, Bangladesh",
      "salary": "Salary : 100K - 150K",
      "logo": "https://i.postimg.cc/852VdsLz/google.png",
-     "id": "011",
+     "id": "01",
      "time": "Full Time",
      "Category":"Remote",
-     "description": "Database expert: Designs, implements, manages complex databases, ensuring optimal performance, security & data integrity."
+     "description": "Database expert: Designs, implements, manages complex databases, ensuring optimal performance, security & data integrity.",
+     "Responsibility": "Search algorithms, ad targeting, AI research, product innovation, data analysis, user experience, strategic partnerships, global outreach.",
+     "Educational_Requirements": "cse",
+     "Experiences": "2yr"
     },
     {
     "title": "Senior Product Designer",
@@ -17,10 +19,14 @@
     "location": "Dhaka, Bangladesh",
     "salary": "Salary : 100K - 150K",
     "logo": "https://i.postimg.cc/sg7G5ZSv/netflix.png",
-    "id": "022",
+    "id": "02",
     "time": "Full Time",
-        "Category":"Onsite",
-        "description": "Creative leader: Drives product design strategy, mentors team, creates innovative user experiences, and delivers compelling visuals."
+    "Category":"Onsite",
+    "description": "Creative leader: Drives product design strategy, mentors team, creates innovative user experiences, and delivers compelling visuals.",
+    "Responsibility": "Content creation, streaming technology, user interface design, customer engagement, data analytics, original programming, global distribution, innovation.",
+    "Educational_Requirements": "cse",
+    "Experiences": "3yr"
+    
     },
     {
 
@@ -29,10 +35,13 @@
         "location": "Dhaka, Bangladesh",
         "salary": "Salary : 100K - 150K",
         "logo": "https://i.postimg.cc/sXVTkzy4/amazon.png",
-        "id": "033",
+        "id": "03",
         "time": "Part Time",
         "Category":"Remote",
-        "description": "Security guardians: Protects systems, data, and networks from cyber threats, conducts risk assessments, develops security measures."
+        "description": "Security guardians: Protects systems, data, and networks from cyber threats, conducts risk assessments, develops security measures.",
+        "Responsibility": "E-commerce operations, customer service, logistics, cloud computing, digital content, retail strategy, innovation, global market expansion.",
+        "Educational_Requirements": "none cse",
+        "Experiences": "1yr"
         },
     
     {
@@ -41,10 +50,13 @@
         "location": "Dhaka, Bangladesh",
         "salary": "Salary : 100K - 150K",
         "logo": "https://i.postimg.cc/fRbscG1p/Tesla.png",
-        "id": "044",
+        "id": "04",
         "time": "Part Time",
         "Category":"Onsite",
-        "description": "Design, develop, and implement software solutions. Code, test, debug, and maintain applications."
+        "description": "Design, develop, and implement software solutions. Code, test, debug, and maintain applications.",
+        "Responsibility": "Electric vehicle manufacturing, sustainable energy solutions, autonomous driving, battery technology, product development, production efficiency, global market leadership, innovation.",
+        "Educational_Requirements": "cse",
+        "Experiences": "not experienced"
     
     },
     {
@@ -53,10 +65,13 @@
         "location": "Dhaka, Bangladesh",
         "salary": "Salary : 100K - 150K",
         "logo": "https://i.postimg.cc/y8MDkLJ2/Twitter.png",
-        "id": "055",
+        "id": "05",
         "time": "Full Time",
         "Category":"Remote",
-        "description": "Software Engineer: Problem Solver. Develops innovative solutions to complex problems. Codes, tests, debugs, and maintains software."
+        "description": "Software Engineer: Problem Solver. Develops innovative solutions to complex problems. Codes, tests, debugs, and maintains software.",
+        "Responsibility": "Social media platform, content moderation, user engagement, real-time news dissemination, online community management, social media marketing, innovation, data analytics.",
+        "Educational_Requirements": "none cse",
+        "Experiences": "3yr"
     
     },
     {
@@ -65,10 +80,13 @@
         "location": "Dhaka, Bangladesh",
         "salary": "Salary : 100K - 150K",
         "logo": "https://i.postimg.cc/SRBBWYWQ/facebook.png",
-        "id": "066",
+        "id": "06",
         "time": "Full Time",
         "Category":"Onsite",
-        "description": "Database Engineer: Designs, develops, and manages efficient and secure databases. Implements data models, ensures data integrity, and optimizes database performance."
+        "description": "Database Engineer: Designs, develops, and manages efficient and secure databases. Implements data models, ensures data integrity, and optimizes database performance.",
+        "Responsibility": "Social media platform, user privacy, content moderation, online advertising, data analytics, community management, global market reach, innovation.",
+        "Educational_Requirements": "cse",
+        "Experiences": "2yr"
     
     }
 ]
