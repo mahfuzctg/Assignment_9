@@ -15,6 +15,7 @@ import Charts from './Components/Charts/Charts';
 import Error from './Error/Error';
 import JobDetails from './Components/JobDtails/JobDetails';
 import Blog from './Components/Blog/Blog';
+import SingleDetails from './Components/SingleDetails/SingleDetails';
 const router = createBrowserRouter([
   {
    
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
      {
        path: "/statistic",
        element: <Charts></Charts>
+     },
+     {
+      path: "/applied",
+      element: <SingleDetails></SingleDetails>,
      },
      {
       path: '/blog',

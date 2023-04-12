@@ -7,14 +7,17 @@ const JobDetails = () => {
     let jobId = useParams()
     const [jobDetails, setJobDetails] = useState([]);
     useEffect(() => {
-       
+        const saveCart = [];
         const jobDetails = job_details.find(job => job.id == jobId.id);
         if (jobDetails){
-            setJobDetails([jobDetails]);
-            localStorage.setItem('jobDetails', JSON.stringify([jobDetails]));
+           saveCart.push(jobDetails)
+          setJobDetails(saveCart)     
+        
         }
-    },[])
+    },[]);
 
+
+   
     return (
         <div>
             
