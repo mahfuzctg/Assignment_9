@@ -12,7 +12,7 @@ import Home from './Components/Home/Home';
 import Main from './Components/Main/Main';
 import Charts from './Components/Charts/Charts';
 
-import Error from './Components/JobDtails/SingleDetails/Error/Error';
+import Error from './Error/Error';
 import JobDetails from './Components/JobDtails/JobDetails';
 import Blog from './Components/Blog/Blog';
 const router = createBrowserRouter([

@@ -2,8 +2,8 @@
     {
      "title": "Technical Database Engineer",
      "brand": "Google LLC",
-     "location": "Dhaka, Bangladesh",
-     "salary": "Salary : 100K - 150K",
+     "location": "India",
+     "salary": " 100K - 150K",
      "logo": "https://i.postimg.cc/852VdsLz/google.png",
      "id": "01",
      "time": "Full Time",
@@ -11,13 +11,15 @@
      "description": "Database expert: Designs, implements, manages complex databases, ensuring optimal performance, security & data integrity.",
      "Responsibility": "Search algorithms, ad targeting, AI research, product innovation, data analysis, user experience, strategic partnerships, global outreach.",
      "Educational_Requirements": "cse",
-     "Experiences": "2yr"
+     "Experiences": "3-4 Years in this field",
+     "email": "googlejobs@gmail.com",
+     "phone": "0880-00 00 00"
     },
     {
     "title": "Senior Product Designer",
     "brand": "Netflix",
     "location": "Dhaka, Bangladesh",
-    "salary": "Salary : 100K - 150K",
+    "salary": " 100K - 150K",
     "logo": "https://i.postimg.cc/sg7G5ZSv/netflix.png",
     "id": "02",
     "time": "Full Time",
@@ -25,15 +27,17 @@
     "description": "Creative leader: Drives product design strategy, mentors team, creates innovative user experiences, and delivers compelling visuals.",
     "Responsibility": "Content creation, streaming technology, user interface design, customer engagement, data analytics, original programming, global distribution, innovation.",
     "Educational_Requirements": "cse",
-    "Experiences": "3yr"
+    "Experiences": "2-5 Years in this field",
+    "email": "netflixjobs@gmail.com",
+    "phone": "01750-00 00 00"
     
     },
     {
 
         "title": "Cyber Security Experts",
         "brand": "Amazon",
-        "location": "Dhaka, Bangladesh",
-        "salary": "Salary : 100K - 150K",
+        "location": "Japan",
+        "salary": " 100K - 150K",
         "logo": "https://i.postimg.cc/sXVTkzy4/amazon.png",
         "id": "03",
         "time": "Part Time",
@@ -41,14 +45,16 @@
         "description": "Security guardians: Protects systems, data, and networks from cyber threats, conducts risk assessments, develops security measures.",
         "Responsibility": "E-commerce operations, customer service, logistics, cloud computing, digital content, retail strategy, innovation, global market expansion.",
         "Educational_Requirements": "none cse",
-        "Experiences": "1yr"
+        "Experiences": "1 Years in this field",
+        "email": "amazonjobs@gmail.com",
+        "phone": "050-00 00 060"
         },
     
     {
         "title": "Software Engineer",
         "brand": "Tesla",
-        "location": "Dhaka, Bangladesh",
-        "salary": "Salary : 100K - 150K",
+        "location": "America",
+        "salary": " 100K - 150K",
         "logo": "https://i.postimg.cc/fRbscG1p/Tesla.png",
         "id": "04",
         "time": "Part Time",
@@ -56,14 +62,16 @@
         "description": "Design, develop, and implement software solutions. Code, test, debug, and maintain applications.",
         "Responsibility": "Electric vehicle manufacturing, sustainable energy solutions, autonomous driving, battery technology, product development, production efficiency, global market leadership, innovation.",
         "Educational_Requirements": "cse",
-        "Experiences": "not experienced"
+        "Experiences": "not experienced",
+        "email": "tesjobs@gmail.com",
+        "phone": "0150-00 00 00"
     
     },
     {
         "title": "Problem Solver",
         "brand": "Twitter",
-        "location": "Dhaka, Bangladesh",
-        "salary": "Salary : 100K - 150K",
+        "location": "USA",
+        "salary": " 100K - 150K",
         "logo": "https://i.postimg.cc/y8MDkLJ2/Twitter.png",
         "id": "05",
         "time": "Full Time",
@@ -71,14 +79,16 @@
         "description": "Software Engineer: Problem Solver. Develops innovative solutions to complex problems. Codes, tests, debugs, and maintains software.",
         "Responsibility": "Social media platform, content moderation, user engagement, real-time news dissemination, online community management, social media marketing, innovation, data analytics.",
         "Educational_Requirements": "none cse",
-        "Experiences": "3yr"
-    
+        "Experiences": "2 Years in this field",
+        "email": "twitjobs@gmail.com",
+        "phone": "010-00 040 00"
+         
     },
     {
         "title": "Database Engineer",
         "brand": "Facebook",
         "location": "Dhaka, Bangladesh",
-        "salary": "Salary : 100K - 150K",
+        "salary": " 100K - 150K",
         "logo": "https://i.postimg.cc/SRBBWYWQ/facebook.png",
         "id": "06",
         "time": "Full Time",
@@ -86,7 +96,9 @@
         "description": "Database Engineer: Designs, develops, and manages efficient and secure databases. Implements data models, ensures data integrity, and optimizes database performance.",
         "Responsibility": "Social media platform, user privacy, content moderation, online advertising, data analytics, community management, global market reach, innovation.",
         "Educational_Requirements": "cse",
-        "Experiences": "2yr"
-    
+        "Experiences": "2-3 Years in this field",
+         "email": "fbjobs@gmail.com",
+        "phone": "01750-00 00 00"
+        
     }
 ]

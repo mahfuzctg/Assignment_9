@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import SingleDetails from './SingleDetails/SingleDetails';
+import SingleDetails from '../../SingleDetails/SingleDetails';
 import { useLoaderData, useParams } from 'react-router-dom';
 
 const JobDetails = () => {
@@ -17,7 +17,7 @@ const JobDetails = () => {
 
     return (
         <div>
-               <h2>Job details loading...</h2>
+            
            
            {
              jobDetails.map(job => <SingleDetails key={job.id} job={job}></SingleDetails>)

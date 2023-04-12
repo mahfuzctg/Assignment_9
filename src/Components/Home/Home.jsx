@@ -4,7 +4,7 @@ import { Outlet, useLoaderData } from 'react-router-dom';
 import './Home.css';
 import Category from '../Category/Category';
 import Features from '../Features/Features';
-import Charts from '../Charts/Charts';
+
 
 const Home = () => {
 
