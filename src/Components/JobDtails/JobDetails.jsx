@@ -16,23 +16,6 @@ const JobDetails = () => {
         
         }
     },[]);
-
-    // const handleApplyJob = (job) => {
-    //   let newCart = [] ;
-    //   const applied = jobDetails.find(jobs => jobs.id == job.id);
-    //   if(!applied){
-    //      singleJob.quantity = 1 ;
-    //      newCart =  [...jobDetails,job]
-    //   }
-    //   else{
-    //     applied.quantity =applied.quantity + 1;
-    //     const remaining = job_details.filter((jobs) => jobs.id !== job.id);
-    //     newCart = [...remaining, applied] ;
-    //     Toast.success("Added this item successfully!",{
-    //       position: Toast.POSITION.TOP_CENTER,
-    //     })
-    //   }
-    // }
    
     return (
         <div>

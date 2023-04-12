@@ -1,12 +1,15 @@
 "# b7a9-career-hub-mahfuzctg" 
 
-"# Assignment_9"
 
-<!-- *What I did in this projects -->
-#1  navbar
-#2  banner section
-#3  category section
-#4  features section 
-#5  features details 
-#6  apply now
-#7  sti 
+## FindJobs
+1.FindJobs: User-friendly job search with personalized recommendations, advanced filters, real-time updates. Empowers seekers to apply, connect with dream jobs. Simplifies search for efficient results.
+
+2.Your go-to job search platform. Easy-to-use, personalized recommendations, advanced filters, real-time updates. Empowers seekers, simplifies search for efficient results. Connect with dream jobs now!
+
+3.They offer a wide range of job listings across various industries, locations, and job functions.
+
+## Live Link
+Hosted by Netlify -> [FindJobs]()
+
+## Private Repo
+Github Repo -> [FindJobs](https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-mahfuzctg)
