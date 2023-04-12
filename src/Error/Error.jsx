@@ -3,7 +3,7 @@ import { useRouteError } from "react-router-dom";
 const Error = () => {
     const error = useRouteError()
     return (
-        <div className='container p-5 my-5' id="error-page">
+        <div className='container p-5 my-5 bg-light text-center rounded-5' id="error-page">
       <h1>Oops!</h1>
       <p>Sorry, an unexpected error has occurred.</p>
       <p>

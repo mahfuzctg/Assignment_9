@@ -37,13 +37,14 @@ const router = createBrowserRouter([
      {
        path: "/statistic",
        element: <Charts></Charts>
-     }
+     },
+     {
+      path: '/blog',
+      element:<Blog></Blog>
+    }
     ]
   },
-  {
-    path: '/blog',
-    element:<Blog></Blog>
-  }
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

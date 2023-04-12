@@ -2,6 +2,7 @@
     background-color: #F9F9FF;
     align-items: center;
     justify-content: space-around;
+   
 }
 .home-container{
  font-size: 16px;
@@ -54,4 +55,9 @@
    color: white;
    font-weight: bold;
    
+}
+.see-more .btn{
+  margin-bottom: 40px;
+ margin-left: 43%;
+ width: 200px;
 }

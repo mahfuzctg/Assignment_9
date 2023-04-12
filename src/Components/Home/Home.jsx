@@ -31,20 +31,20 @@ const Home = () => {
     return (
         <div>
             {/* here is home container section*/}
-            <div className='home-container d-flex py-3'>
-            <div className='home-tile'>
+            <div className='home-container grid row py-3'>
+            <div className='home-tile col-md-6 col-sm-12'>
             <h1>One Step <br /> Closer To Your <br /> <span className='span'> Dream Job</span></h1>
             <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
             <button className='btn'>Get Started</button>
            </div>
-           <div>
+           <div className='col-md-6 col-sm-12'>
             <img className='img' src="https://i.postimg.cc/Hsf5Fw0W/Whats-App-Image-2023-04-11-at-6-50-08-AM.jpg" alt="" />
            </div>
             </div>
              
 
              {/* here is category section */}
-            <div className='category text-center pt-5'>
+             <div className='category text-center pt-5'>
                 <h4>Job Category List</h4>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
@@ -57,9 +57,8 @@ const Home = () => {
                           ></Category>)
                 }
             </div>
-
             {/* here is features section */}
-                <div className='features-home my-5'>
+                <div className='features-home p-5 my-5'>
                
                 {
                     showAllFeatures.map((feature) => (
@@ -71,17 +70,17 @@ const Home = () => {
                     ))
                 }
                 
+                
+                </div>
+               
                 <div className='see-more'>
                 {
                     !seeMore && (
-                        <button className='btn' onClick={handleSeeMore}>See More</button>
+                        <button className='btn ' onClick={handleSeeMore}>See More</button>
                     )
                 }
                    
                 </div>
-                </div>
-               
-
              
         </div>
 

@@ -7,7 +7,7 @@ const SingleDetails = ({job}) => {
 
 
             {/* here is job description */}
-            <div className='grid col-8 bg-light p-2 py-5 rounded-2'>
+            <div className='grid  col-8  bg-light  p-5 rounded-2'>
             <h6>Job Description: <span>{description}</span></h6>
             <br />
             <h6>Job Responsibility: <span>{Responsibility}</span></h6>
@@ -21,7 +21,7 @@ const SingleDetails = ({job}) => {
 
 
             {/* here is job details */}
-            <div className='grid col-4 bg-light p-1 rounded-2'>
+            <div className='grid col-4  bg-light p-3 rounded-2'>
                
                 <h6 className='text-center pt-1'> Job details</h6>
                 <hr />
