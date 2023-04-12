@@ -1,5 +1,6 @@
 import React from 'react';
 import "./SingleDetails.css";
+import { BeakerIcon } from '@heroicons/react/24/solid'
 const SingleDetails = ({job}) => {
     const {description, name, Experiences, title, id, salary,brand,location,logo,time,Category,Responsibility,Educational_Requirements,email,phone} = job;
 
