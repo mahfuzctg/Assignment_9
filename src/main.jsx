@@ -16,6 +16,7 @@ import Error from './Error/Error';
 import JobDetails from './Components/JobDtails/JobDetails';
 import Blog from './Components/Blog/Blog';
 import SingleDetails from './Components/SingleDetails/SingleDetails';
+import Apply from './Components/Apply/Apply';
 const router = createBrowserRouter([
   {
    
@@ -24,9 +25,9 @@ const router = createBrowserRouter([
     errorElement: <Error></Error>,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <Home></Home>,
-        loader: () => fetch('Category.json'),
+        loader: () => fetch('/Category.json'),
         
       },
       {
@@ -41,7 +42,8 @@ const router = createBrowserRouter([
      },
      {
       path: "/applied",
-      element: <SingleDetails></SingleDetails>,
+      element: <Apply></Apply>,
+      loader: () => fetch("/Features.json")
      },
      {
       path: '/blog',

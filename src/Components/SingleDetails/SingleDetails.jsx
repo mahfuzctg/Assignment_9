@@ -1,12 +1,18 @@
 import React from 'react';
 import "./SingleDetails.css";
 import { BeakerIcon } from '@heroicons/react/24/solid'
+import { addToDb } from '../utilities/fakedb';
 const SingleDetails = ({job}) => {
     const {description, name, Experiences, title, id, salary,brand,location,logo,time,Category,Responsibility,Educational_Requirements,email,phone} = job;
 
-    const handleApply = () =>{
-        console.log('data loading...');
+
+
+    const handleApply = (id) =>{
+        addToDb(id)
     }
+
+
+
     return (
         <div className='container grid row-cols-2 d-flex gap-4 my-5'>
 
@@ -41,7 +47,7 @@ const SingleDetails = ({job}) => {
                  <br />
                 
                  <div className='apply-btn'>
-                <button onClick={handleApply} className='btn'>Apply Now</button>
+                <button onClick={() => handleApply (id)} className='btn'>Apply Now</button>
                 </div>
             </div>
         
